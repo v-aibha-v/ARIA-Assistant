@@ -1,49 +1,93 @@
 # ARIA Assistant
 
+![GitHub repo size](https://img.shields.io/github/repo-size/v-aibha-v/ARIA-Assistant)
+![GitHub last commit](https://img.shields.io/github/last-commit/v-aibha-v/ARIA-Assistant)
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
+
+---
+
+## 🎤 ARIA Assistant
+
 A Python-based intelligent voice assistant for Windows that enables hands-free system control, automation, and voice-driven interaction.
 
-## Features
-- **Voice Interaction**: Natural speech-based command handling  
-- **Intelligent Assistant**: Performs system-level tasks efficiently  
-- **Windows Automation**: Launch apps, lock PC, and control system functions  
-- **Hotkey Activation**: Trigger assistant using Ctrl + Space  
-- **Wake Word Support**: Activate using "ARIA" (optional mode)  
-- **Modern UI Overlay**: Fullscreen Siri-like interactive interface  
-- **Background Mode**: Runs silently in system tray  
+---
 
-## Installation
+## ✨ Features
 
-Option 1: Run from Source (Recommended)
+- 🎤 Voice Interaction using natural language  
+- 🧠 Smart system automation  
+- 🪟 Control Windows (apps, lock, system actions)  
+- ⌨️ Hotkey activation (Ctrl + Space)  
+- 🔊 Wake word support ("ARIA")  
+- 🧩 Runs in background tray mode  
+- 🎨 Modern fullscreen UI overlay  
 
-Clone repository:
-git clone https://github.com/v-aibha-v/ARIA-Assistant.git && cd ARIA-Assistant
+---
 
-Install dependencies:
+## 🎬 Demo
+
+![ARIA Demo](assets/demo.gif)
+
+> Replace this with your screen recording GIF for maximum impact
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/v-aibha-v/ARIA-Assistant.git
+cd ARIA-Assistant
 pip install -r requirements.txt
+```
 
-Set API key:
+### Set API Key
+```bash
 SARVAM_API_KEY=your_key_here
+```
 
-Run project:
+### Run
+```bash
 python main.py
+```
 
-## Building the Installer
+---
 
-1. Install PyInstaller: pip install pyinstaller  
-2. Install Inno Setup 6: https://jrsoftware.org/isdl.php  
-3. Run build script (Admin): build.bat  
+## 🛠️ Build Executable
+
+```bash
+pip install pyinstaller
+build.bat
+```
 
 Output:
+```
 dist/ARIASetup.exe
+```
 
-## Skills
+---
 
-Wake Word: ARIA  
-Hotkey: Ctrl + Space  
+## 🎯 Commands
 
-Commands:
-- Open App (VS Code, Discord, etc.)
+- Open apps (VS Code, Chrome, Discord)
 - Lock PC
-- Set timer X minutes
-- What time is it
+- Set timer
+- System time
 - Sleep system
+
+---
+
+## 📌 Tech Stack
+
+- Python  
+- PyQt  
+- SpeechRecognition  
+- PyAutoGUI  
+- Sounddevice  
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub
